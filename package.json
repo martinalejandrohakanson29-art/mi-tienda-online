@@ -1,12 +1,11 @@
 {
-  "name": "mi-tienda-online-root",
+  "name": "tienda-online-root",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "build": "cd client && npm install && npm install -D @tailwindcss/postcss && npm run build && cd ../server && npm install",
     "start": "cd server && npm start"
   },
   "engines": {
     "node": "22.x"
   }
-
 }
